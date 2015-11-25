@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnMallet", "LearnMallet\LearnMallet.csproj", "{CABD3109-CAB6-432A-BFDB-1BCE75FD4962}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructVectors", "ConstructVectors\ConstructVectors.csproj", "{5BC88323-5232-49F3-B413-1572CB5CC6B5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CABD3109-CAB6-432A-BFDB-1BCE75FD4962} = {CABD3109-CAB6-432A-BFDB-1BCE75FD4962}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
